@@ -14,11 +14,12 @@ int main(){
         if (modulo==0){
             cout << "No es primo";
             primo = 0;
+            break;
         }
-        break;
-        if (primo == 1){
+        }
+    
+    if (primo == 1){
             cout << "Es primo";
-        }
     }
     return 0;
 }
